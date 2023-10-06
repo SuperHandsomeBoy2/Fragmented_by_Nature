@@ -10,7 +10,7 @@ The code in this folder is used to calculate the detour index for 13000+ urban a
 * Please run "pip install -r requirements.txt" to install all the dependencies.
 
 ## [demo.py](demo.py)
-* The file "demo.py" can be run directly. 
+* The file "[demo.py](demo.py)" can be run directly. 
 
 ## [global_graphical_index_with_road_map.py](global_graphical_index_with_road_map.py)
 * Please unzip "[Data/global_data/global_data.rar](Data/global_data/global_data.rar)" first.
