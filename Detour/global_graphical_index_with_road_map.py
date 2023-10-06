@@ -30,7 +30,7 @@ def global_graphical_index_with_road_map(
         block_sz=4,
         neighbor_d_max=1,
         degree_threshold=0.49,
-        device=torch.device('cuda'),
+        device=torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu'),
     )
 
     st_id = 0
@@ -80,7 +80,7 @@ def global_graphical_index_with_road_map(
             file.close()
 
 
-def save_csv(summary: list[dict], filename: str, sort_by: str = None):
+def save_csv(summary, filename: str, sort_by: str = None):
     import pandas as pd
     # whether path exist
     print('Save summary to: ' + filename + ' ...')

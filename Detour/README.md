@@ -7,18 +7,21 @@ Author: Luyao Wang, Albert Saiz, Weipeng Li
 
 The code in this folder is used to calculate the detour index for 13000+ city regions all over the world.
 
+* Please run "pip install -r requirements.txt" to install all the dependencies.
+
 ## [demo.py](demo.py)
-The file "demo.py" can be run directly. 
+* The file "demo.py" can be run directly. 
 
 ## [global_graphical_index_with_road_map.py](global_graphical_index_with_road_map.py)
-Please unzip "Data/global_data/global_data.rar" first.
+* Please unzip "Data/global_data/global_data.rar" first.
 
-The road net data used in this paper comes from The Global Roads Inventory Project (GRIP) dataset, 
+* The road net data used in this paper comes from The Global Roads Inventory Project (GRIP) dataset, 
 it should be downloaded from: https://www.globio.info/ before running this demo.
 
-Introduction of the data is accessible with: https://www.globio.info/download-grip-dataset .
+* Introduction of the data is accessible: https://www.globio.info/download-grip-dataset .
 
-If the road net data is not downloaded, please download it and put it in the folder: /Data/global_data/
+* If the road net data is not downloaded, please download it and put it in the folder: /Data/global_data/
     
-Part of the city road net is automatically downloaded from https://www.openstreetmap.org/ when the data of https://www.globio.info/ is insufficient.
+* Part of the city road net is automatically downloaded from https://www.openstreetmap.org/ 
+when the data of https://www.globio.info/ is insufficient.
 
