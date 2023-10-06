@@ -20,7 +20,7 @@ it should be downloaded from: https://www.globio.info/ before running this demo.
 
 * Introduction of the data is accessible: https://www.globio.info/download-grip-dataset .
 
-* If the road net data is not downloaded, please download it and put it in the folder: /Data/global_data/
+* If the road net data is not downloaded, please download it and extract to the folder: /Data/global_data/
     
 * Part of the city road net is automatically downloaded from https://www.openstreetmap.org/ 
 when the data of https://www.globio.info/ is insufficient.
