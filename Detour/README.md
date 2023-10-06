@@ -5,7 +5,7 @@ Research Paper: Fragmented by Nature: Metropolitan Geography,Inner Urban Connect
 
 Author: Luyao Wang, Albert Saiz, Weipeng Li
 
-The code in this folder is used to calculate the detour index for 13000+ city regions all over the world.
+The code in this folder is used to calculate the detour index for 13000+ urban areas all over the world.
 
 * Please run "pip install -r requirements.txt" to install all the dependencies.
 
